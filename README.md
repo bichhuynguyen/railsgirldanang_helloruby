@@ -1,2 +1,3 @@
 # railsgirldanang_helloruby
-Huy Nguyen
+# Hello RailsGirlsDaNang
+*I am Huy Bich Nguyen*
