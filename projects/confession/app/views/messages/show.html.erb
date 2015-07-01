@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <p>
+        <strong>Title:</strong>
+      </p>
+    </div>
+    <div class="col-md-5">
+      <p>
+        <strong>Content:</strong>
+      </p>
+    </div>
+    <div class="col-md-3">
+      <p>
+        <strong>Picture:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <p>
+        <%= @message.title %>
+      </p>
+    </div>
+    <div class="col-md-5">
+      <p>
+        <%= @message.content %>
+      </p>
+    </div>
+    <div class="col-md-3">
+      <p>
+        <%= image_tag @message.picture.url, class: "img-thumbnail" %>
+      </p>
+    </div>
+  </div>
+  <%= link_to 'Edit', edit_message_path(@message), class: "edit" %> |
+  <%= link_to 'Back', messages_path, class: "back" %>
+</div>
+

@@ -1,0 +1,9 @@
+//= depend_on_asset "footer.png"
+.footer {
+  background-image: url(footer.png);
+  // border-top: solid 1px #ccc;
+  height: 100px;
+  width: 1026px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
